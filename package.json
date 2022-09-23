@@ -1,0 +1,19 @@
+{
+  "name": "graphql-typescript-demo",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "",
+  "workspaces": {
+    "packages": [
+      "backend",
+      "frontend"
+    ]
+  },
+  "scripts": {
+    "dev": "yarn workspace backend dev && yarn workspace frontend dev",
+    "codegen": "yarn workspace backend codegen && yarn workspace frontend codegen"
+  },
+  "keywords": [],
+  "author": "Nicolas Wielonsky",
+  "license": "ISC"
+}
